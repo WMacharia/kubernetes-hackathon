@@ -93,8 +93,8 @@ spec:
             initialDelaySeconds: 20
           resources:
             limits:
-              cpu: 300m
-              memory: 300Mi 
+              cpu: 500m
+              memory: 512Mi 
           volumeMounts:
             - name: db-properties
               mountPath: "/app/config"
